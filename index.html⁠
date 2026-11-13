@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMJAS Foundation - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #1f2937;
+        }
+        header {
+            background-color: #1b5e20;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #d4af37;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+        header p {
+            color: #f3e5ab;
+            margin: 5px 0 0 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1b5e20;
+            border-left: 4px solid #d4af37;
+            padding-left: 10px;
+        }
+        .contact-box {
+            background-color: #f1f7f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #144519;
+            color: #ffffff;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AMJAS FOUNDATION</h1>
+        <p>Hadin Kai • Jin Kai • Cigaba (Unity • Compassion • Progress)</p>
+    </header>
+
+    <div class="container">
+        <h2>Game da Mu (About Us)</h2>
+        <p>AMJAS Foundation kungiya ce mai zaman kanta da ke da helkwata a garin <strong>Jega, Jihar Kebbi, Najeriya</strong>. Manufarmu ita ce tallafawa marasa lafiya, farfado da makarantu da Islamiyyu (Taimakon Tushenmu), kula da marayu da marasa karfi, tare da bayar da gudunmawa a fagen ci gaban al'umma da siyasa mai ma'ana.</p>
+
+        <h2>Shugabancin Gidauniya</h2>
+        <ul>
+            <li><strong>President:</strong> Abdulmajid Isah (07042115124)</li>
+            <li><strong>Vice President:</strong> Aminu Adamu (09074941557)</li>
+            <li><strong>Chief Advisor:</strong> Abdulaziz Abdurrahman</li>
+        </ul>
+
+        <div class="contact-box">
+            <h3>Tuntube Mu (Contact Us)</h3>
+            <p>Kuna iya tuntubar shugabancin gidauniya kai tsaye ta lambobin waya: <strong>07042115124</strong> ko <strong>09074941557</strong> ko a ziyarce mu a Jega, Jihar Kebbi.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AMJAS Foundation. Dukkan haƙƙoƙi a kiyaye.</p>
+    </footer>
+
+</body>
+</html>
