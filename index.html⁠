@@ -11,63 +11,109 @@
             padding: 0;
             background-color: #f4f9f4;
             color: #1f2937;
+            line-height: 1.6;
         }
         header {
             background-color: #1b5e20;
             color: #ffffff;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
             border-bottom: 4px solid #d4af37;
         }
+        .logo-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #d4af37;
+            background-color: #ffffff;
+            padding: 3px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
         header h1 {
             margin: 0;
-            font-size: 26px;
+            font-size: 28px;
+            letter-spacing: 1px;
         }
         header p {
             color: #f3e5ab;
-            margin: 5px 0 0 0;
+            margin: 8px 0 0 0;
+            font-size: 15px;
         }
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 20px auto;
             background: #ffffff;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         h2 {
             color: #1b5e20;
             border-left: 4px solid #d4af37;
             padding-left: 10px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #374151;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f1f7f1;
+            border-left: 4px solid #1b5e20;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
         }
         .contact-box {
-            background-color: #f1f7f1;
+            background-color: #faf6e9;
+            border: 1px solid #d4af37;
             padding: 15px;
-            border-radius: 5px;
-            margin-top: 15px;
+            border-radius: 6px;
+            margin-top: 25px;
         }
         footer {
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             background-color: #144519;
             color: #ffffff;
-            margin-top: 20px;
+            margin-top: 30px;
             font-size: 14px;
+            border-top: 3px solid #d4af37;
         }
     </style>
 </head>
 <body>
 
     <header>
+        <img src="IMG_0034.jpeg" alt="AMJAS Foundation Logo" class="logo-img">
         <h1>AMJAS FOUNDATION</h1>
         <p>Hadin Kai • Jin Kai • Cigaba (Unity • Compassion • Progress)</p>
     </header>
 
     <div class="container">
         <h2>Game da Mu (About Us)</h2>
-        <p>AMJAS Foundation kungiya ce mai zaman kanta da ke da helkwata a garin <strong>Jega, Jihar Kebbi, Najeriya</strong>. Manufarmu ita ce tallafawa marasa lafiya, farfado da makarantu da Islamiyyu (Taimakon Tushenmu), kula da marayu da marasa karfi, tare da bayar da gudunmawa a fagen ci gaban al'umma da siyasa mai ma'ana.</p>
+        <p><strong>AMJAS Foundation</strong> kungiya ce mai zaman kanta da ke da helkwata a garin <strong>Jega, Jihar Kebbi, Najeriya</strong>. Manufarmu ita ce tallafawa marasa lafiya, farfado da makarantu da Islamiyyu (Taimakon Tushenmu), kula da marayu da marasa karfi, tare da bayar da gudunmawa a fagen ci gaban al'umma da shugabanci mai albarka a fadin Arewa da Najeriya baki daya.</p>
 
-        <h2>Shugabancin Gidauniya</h2>
+        <div class="highlight-box">
+            <h3 style="margin-top:0; color:#1b5e20;">Manufofin Gidauniya (Our Core Objectives)</h3>
+            <ul>
+                <li>Tallafawa da bunkasa fannin ilimi da makarantun Islamiyya.</li>
+                <li>Bayar da taimakon jinya da tallafi ga marasa lafiya masu rauni.</li>
+                <li>Kula da marayu, zawarawa, da marasa karfi a al'umma.</li>
+                <li>Inganta rayuwar al'umma ta hanyar shirye-shiryen cigaban karkara da birni.</li>
+            </ul>
+        </div>
+
+        <h2>Shugabancin Gidauniya (Leadership)</h2>
         <ul>
             <li><strong>President:</strong> Abdulmajid Isah (07042115124)</li>
             <li><strong>Vice President:</strong> Aminu Adamu (09074941557)</li>
@@ -75,8 +121,9 @@
         </ul>
 
         <div class="contact-box">
-            <h3>Tuntube Mu (Contact Us)</h3>
-            <p>Kuna iya tuntubar shugabancin gidauniya kai tsaye ta lambobin waya: <strong>07042115124</strong> ko <strong>09074941557</strong> ko a ziyarce mu a Jega, Jihar Kebbi.</p>
+            <h3 style="margin-top:0; color:#1b5e20;">Tuntube Mu (Contact Us)</h3>
+            <p>Kuna iya tuntubar shugabancin gidauniya kai tsaye ko ziyartar ofishinmu a Jega, Jihar Kebbi.</p>
+            <p>📞 Lambobin Waya: <strong>07042115124</strong> / <strong>09074941557</strong></p>
         </div>
     </div>
 
